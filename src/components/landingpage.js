@@ -18,7 +18,7 @@ class LandingPage extends Component{
                             <h1>Full Stack Developer</h1>
                         <hr/>
 
-                        <p>Java | C++ | Python | JavaScript | HTML | React | SQL | Android Development</p>
+                        <p>Java | C++ | Python | JavaScript | Spring Boot | HTML | React | SQL | Android Development</p>
 
                             <div className="social-links">
 
@@ -36,6 +36,12 @@ class LandingPage extends Component{
                                 <a href="http:google.com" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-youtube-square" aria-hidden="true" />
                                 </a>
+
+                                {/* Instagram */}
+                                <a href="http:google.com" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-instagram" aria-hidden="true" />
+                                </a>
+
 
                             </div>
 
