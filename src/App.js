@@ -9,7 +9,7 @@ function App() {
   return (
       <div className="demo-big-content">
           <Layout style={{background: 'url(https://lh3.googleusercontent.com/pw/ACtC-3faM2z12Q-Es3xTwYeUjDyw9nXJxf3x0SOv9YyOImLoxMXt9mIJeI7_DTICPSxPxGNokh0zKp5BUl1RXswvJK3ct2EtHOOFJ1j1TL8S9AjVY1nsSuY0mjsoy7AbK10Auw5RLLcvUIu6dYewTDL-hbq84w=w1191-h794-no?authuser=0) center / cover'}}>
-              <Header title="Dale Reyes" scroll>
+              <Header className="header-color" title="Dale Reyes" scroll>
                   <Navigation>
                       <Link to="/resume">Resume</Link>
                       <Link to="/aboutme">About Me</Link>
