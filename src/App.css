@@ -18,7 +18,9 @@
 
 .avatar-img {
     height: 250px;
-    padding-top: 5em;
+    padding-top: 0em;
+    border: 10px solid white;
+
 }
 
 .banner-text{
