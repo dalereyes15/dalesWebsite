@@ -28,10 +28,24 @@ class Projects extends Component{
             );
 
         }
-        /*React*/
+        /*Java*/
         else if(this.state.activeTab === 1) {
             return(
-                <div><h1>This is Java</h1></div>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color:'#fff',height:'176px',
+                        background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJh0lSCuQiQgNzTjTrCjOELqH0RuFYWDJDPHhHmPrsyyrSIs54&usqp=CAU) center / cover'}}>Roulette Game</CardTitle>
+                    <CardText>Based off the famous card came roulette, this game is the way to go.</CardText>
+
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                        <Button colored>README</Button>
+                    </CardActions>
+                    <CardMenu style={{color:'#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
+
+                </Card>
             );
         }
 
@@ -48,6 +62,7 @@ class Projects extends Component{
                     <CardActions border>
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
+                        <Button colored>README</Button>
                     </CardActions>
                     <CardMenu style={{color:'#fff'}}>
                         <IconButton name="share"/>
@@ -63,6 +78,7 @@ class Projects extends Component{
                         <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>Live Demo</Button>
+                            <Button colored>README</Button>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name="share"/>
@@ -79,6 +95,7 @@ class Projects extends Component{
                         <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>Live Demo</Button>
+                            <Button colored>README</Button>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name="share"/>
