@@ -112,3 +112,51 @@
     font-size: 66px;
     padding-right: 5rem;
 }
+
+/* Resume page right column CSS*/
+.resume-right-col{
+    background: #27221F;
+    color: white;
+
+}
+
+/* Resume page right column CSS
+.resume-right-col h2{
+    font-family: 'Anton',sans-serif;
+    text-align: center;
+
+} */
+
+/* left column name image CSS*/
+.resume-left-col{
+    text-align: center;
+}
+
+/* left column name header CSS*/
+.resume-left-col h2 {
+    font-family: 'Anton',sans-serif;
+    text-align: center;
+}
+
+/* left column position header CSS*/
+.resume-left-col h4 {
+    font-family: 'Anton',sans-serif;
+    text-align: center;
+}
+
+
+/* left column Address, Phone, and Email CSS*/
+.resume-left-col h5 {
+    font-family: 'Oxygen',sans-serif;
+    text-align: left;
+
+}
+
+/* left column name header CSS*/
+.resume-left-col p {
+    font-family: 'Oxygen',sans-serif;
+    text-align: left;
+
+}
+
+
