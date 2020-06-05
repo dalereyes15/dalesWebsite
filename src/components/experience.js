@@ -10,10 +10,13 @@ class Experience extends Component{
                     <p>{this.props.startYear} - {this.props.endYear}</p>
                 </Cell>
 
-                <Cell col={8}>
-                    <h4 style={{marginTop: '0px'}}> {this.props.companyName}</h4>
-                    <h4 style={{marginTop: '0px' ,fontSize:'20px'}}> Position: {this.props.jobTitle}</h4>
-                    <p>{this.props.jobDescription}</p>
+                <Cell col={8} className='experience-resume'>
+                    <h4 style={{marginTop: '0px', textDecorationLine:'underline'}}> {this.props.companyName}</h4>
+                    <h4 style={{marginTop: '0px' ,fontSize:'18px'}}> Position: {this.props.jobTitle}</h4>
+                    <ul>{this.props.jobDescription1}</ul>
+                    <ul>{this.props.jobDescription2}</ul>
+                    <ul>{this.props.jobDescription3}</ul>
+
                 </Cell>
 
 
